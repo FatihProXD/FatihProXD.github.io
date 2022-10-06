@@ -6,7 +6,7 @@
 }
 
 .container{
-    background: url(images/f19247be235a92bcf41c640b63b934fe.jpg);
+    background: url(images/portfolio-background.png);
     height: 100vh;
     background-size: 100% 100%;
 }
@@ -24,14 +24,16 @@
 
 .navbar .logo a{
     text-decoration: none;
-    font-size: 30px;
-    font-family: bold;
+    font-size: 35px;
+    font-family: Copperplate, Papyrus, fantasy;
     color: rgba(208, 255, 0, 0.8);
+    margin-left: 80px;
+    margin-top: 10px;
 }
 
 .navbar ul{
     float: right;
-    margin-right: 765px;
+    margin-right: 720px;
 }
 
 .navbar ul li{
@@ -55,18 +57,6 @@
 .navbar ul li a:hover{
     background: #ff6e00
 
-}
-
-.dikdortgen{
-    background-color: rgb(70, 108, 190);
-  color: white;
-  border: 2px solid black;
-  margin-top: 250px;
-  padding: 20px;
-  border-radius: 30%;
-  height: 250px;
-  margin-left: 650px;
-  margin-right: 650px;
 }
 
 .container .center{
@@ -107,8 +97,8 @@
     width: 150px;
     font-size: 18px;
     color: white;
-    background: rgba(248, 136, 128, 0.63);
-    border: solid 1px red;
+    background: rgba(48, 192, 228, 0.699);
+    border: solid 1px black;
     cursor: pointer;
     outline: none;
     border-radius: 25px;
