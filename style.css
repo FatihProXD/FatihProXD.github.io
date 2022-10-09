@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.container{
+    background: url(images/portfolio-background.png);
+    height: 100vh;
+    background-size: 100% 100%;
+    position: sticky;
+}
+    
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba(122, 32, 182, 0.541);
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 35px;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: rgba(208, 255, 0, 0.8);
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 660px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 80px
+
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .3s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #ff6e00
+
+}
+
+.container .center{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.container .center{
+    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    color: rgb(218, 214, 14);
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 25px 280px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    background: rgba(48, 192, 228, 0.699);
+    border: solid 1px black;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    font-family: bold;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.buttons button:hover{
+    background: #fff;
+}
+
+@media screen and (max-width: 1525px){
+    .container .navbar{
+        width: 180px;
+        height: 100%;
+        background: rgba(122, 32, 182, 0.541);
+        padding-left: 30px;
+    }
+
+    .navbar ul{
+        clear: both;
+        width:180px;
+        margin:0;
+        padding:0;
+        list-style-type:none;
+        margin-top: 30px; 
+    }
+
+    .navbar .logo{
+        display: inline-block;
+        clear: both;
+        margin-left: -10px;
+        padding:0;
+        list-style-type:none; 
+    }
+    
+    .navbar .logo a{
+        text-decoration: none;
+        font-size: 35px;
+        font-family: Copperplate, Papyrus, fantasy;
+        color: rgba(208, 255, 0, 0.8);
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .navbar ul li{
+        list-style-type: none;
+        display: inline-block;
+        
+        line-height: 80px;
+    }
+    
+    .navbar ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 6px 13px;
+        font-family: Roboto;
+        transition: .3s;
+    }
+    
+}
